@@ -31,12 +31,12 @@ echo "--------------------------------------------------------------------------
 git config --global pull.rebase false
 git config --global user.name "GraeWolf"
 git config --global user.email "kelly@graewolf.com"
-sudo git config --system core.editor nano
+sudo git config --system core.editor vim
 #git config --global credential.helper cache
 #git config --global credential.helper 'cache --timeout=32000'
 git config --global push.default simple
 
-git remote set-url origin git@github.com-edu:erikdubois/$project
+git remote set-url origin git@github.com-edu:GraeWolf/$project
 
 echo "Everything set"
 
